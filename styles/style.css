@@ -29,6 +29,8 @@ button {
 .navbar-light .navbar-nav .nav-link {
 	color: #292b2c;
 	font-weight: 600;
+	margin: 5px;
+	padding: 5px;
 	text-transform: uppercase;
 
 	/*  Challenge: can you make the navigation links orange on hover? */
@@ -36,7 +38,12 @@ button {
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
-
+button.volunteer:hover {
+	background-color: red
+}
+button.volunteer:hover {
+	background-color: red
+}
 
 /* Alert */
 .alert {
