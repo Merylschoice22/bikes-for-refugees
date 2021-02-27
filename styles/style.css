@@ -93,6 +93,8 @@ button {
 
 /* Jumbotron */
 .jumbotron {
+  background-image: url("../images/header-bike.jpg");
+  filter: opacity(40%);
   border-radius: 0;
 }
 
@@ -138,15 +140,14 @@ button {
   display: inline-flex;
   justify-content: space-between;
 }
-.article {
-  margin-bottom: 2em;
-}
+
 .artbox article {
+  margin-bottom: 2em;
   padding: 20px;
   width: 48%;
 }
 
-.article p {
+article p {
   font-size: 0.85em;
 }
 
@@ -184,12 +185,18 @@ button {
   margin-bottom: 0;
 }
 
+/* Sidebar */
+
+.img-fluid {
+  width: 20%;
+}
+
 /* Footer */
-.footer {
+footer {
   margin-top: 4em;
 }
 
-.footer p {
+footer p {
   border-top: 1px solid #dccdc6;
   padding-top: 2em;
   padding-bottom: 2em;
